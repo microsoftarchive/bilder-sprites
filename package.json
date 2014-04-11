@@ -1,6 +1,6 @@
 {
   "name": "bilder-sprites",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Grunt Sprites builder, for bilder",
   "main": "index.js",
   "scripts": {
