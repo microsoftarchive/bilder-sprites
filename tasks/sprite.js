@@ -168,5 +168,5 @@ module.exports = function (grunt) {
     spritesmith(smithArgs, callback);
   }
 
-  grunt.registerMultiTask('compile/sprite', 'sprite builder and stylus exporter', SpriteTask);
+  grunt.registerMultiTask('compile/sprites', 'sprite builder and stylus exporter', SpriteTask);
 };
