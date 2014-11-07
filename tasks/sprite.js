@@ -51,6 +51,7 @@ module.exports = function (grunt) {
     return function (error, result) {
 
       if (error) {
+        grunt.log.writeln(error.message, error.stack);
         grunt.fatal('failed generating sprite - ' + target);
       }
 
